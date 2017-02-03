@@ -22,6 +22,7 @@
         - origin_ci_aws_identifying_tag_key
         - origin_ci_aws_hostname
         - origin_ci_ssh_config_strategy
+        - openshift_schedulable
 
     - name: ensure all required variables are set
       fail:
