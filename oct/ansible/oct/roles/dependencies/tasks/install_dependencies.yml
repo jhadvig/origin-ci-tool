@@ -68,6 +68,7 @@
    - Xvfb                     # Origin Web Console tests
    - yum-utils                #
    - zip                      # Origin build/package
+   - iptables-service
 
 - name: install distribution-dependent dependencies
   package:
